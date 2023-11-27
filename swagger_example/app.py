@@ -12,7 +12,8 @@ myApp = Flask(__name__)
 tasks = [{"name":"Laundry","description":"Do the laundry this weekend"},
             {"name":"Assignment","description":"Finish assignment by Friday"},
             {"name":"Call family","description":"Call family Sunday morning"},
-            {"name":"Pay bills","description":"Pay the electricity and water bill"}]
+            {"name":"Pay bills","description":"Pay the electricity and water bill"},
+            ]
 
 
 @myApp.route('/swaggerfile_8')
